@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script  src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+	<div id= "encabezado">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-2 col-md-10">
+				<h1>TO DO APP</h1>
+			</div>
+		</div>
+	</div>
+	</header>
+<section>
+	<div class="container">
+		<div class="row">
+		  	<div class="col-xs-10 col-xs-offset-2 col-md-10">
+		  
+		  	<form class = "formulario" action="" method ="post">
+		  		<div >
+					<label for="newtask" id= "etiqueta2">Agregar Tarea</label>
+					<input type="text" id="newTarea" class = "error" placeholder="Nueva Tarea">
+					<input type="button" id="btnNuevaTarea" value="Agregar">
+				</div>
+			</form>
+			
+				<div id= "listasepara">
+				<hr>
+					<ul id="todolist">
+					<h4>Cosas por Hacer</h4>
+					<li></li>
+					<hr>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src= "js/todo.js"></script>
+</body>
+</html>
